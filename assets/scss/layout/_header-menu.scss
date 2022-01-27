@@ -1,0 +1,52 @@
+.header-menu {
+       display: flex;
+       justify-content: space-between;
+       font-family: $ff-roboto;
+       justify-content: center;
+       align-items: center;
+       background-color: $color-granite-gray;
+       padding: 10px;
+       border-bottom: 1px solid gray;
+&__logo {
+        font-size: $fs-xx-large;
+        font-weight: $fw-bold;  
+}
+&__nav {
+    display: inline-block;
+    width: 850px;
+    text-align: right;
+  }
+&__a {
+        color: $color-smoky-black ;
+        text-decoration: none;
+}
+  &__input {
+      border: 1px solid $color-smoky-black; 
+      border-radius: 30px;
+      padding: 4px;
+      width: 7rem;
+  }
+  &__li {
+    text-decoration: none;
+  }
+  &__ul {
+    list-style:none
+  }
+
+
+}
+
+@include tablet-view{
+    .header-menu__input{
+        width: 8rem;
+        
+    }
+  
+}
+
+@include desktop-view{
+   .header-menu__logo{
+       font-size:$fs-xxx-large;
+   }
+
+}

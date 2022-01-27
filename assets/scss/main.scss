@@ -1,0 +1,26 @@
+// importaciones
+
+// abstract
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "abstract/function";
+
+// base
+@import "base/reset";
+
+// components
+@import "component/buttons";
+@import "component/navbar";
+@import "component/pagination";
+
+//layout
+@import "layout/grid";
+@import "layout/container";
+@import "layout/header-menu";
+@import "layout/item";
+@import "layout/sidebar-section";
+@import "layout/newsletter-section";
+@import "layout/footer";
+
+
+

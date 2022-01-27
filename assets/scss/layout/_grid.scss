@@ -1,0 +1,34 @@
+.grid{ 
+    display: grid;
+}
+
+@include tablet-view{
+    .grid{
+        grid-template-columns: 1fr 1fr;
+      
+    }
+    .item-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@include desktop-view{
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+    .item-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+
+
+
+
+
